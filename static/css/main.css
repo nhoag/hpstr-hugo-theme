@@ -10,39 +10,39 @@
 /* ==========================================================================
    SCSS Variables
    ========================================================================== */
-/* 
+/*
    Page
    ========================================================================== */
-/* 
+/*
    Typography
    ========================================================================== */
 body {
   margin-top: 26px;
   font-size: 16px; }
 
-/* 
+/*
    Colors
    ========================================================================== */
-/* 
+/*
    Screen sizes
    ========================================================================== */
 /* ==========================================================================
    Mixins
    ========================================================================== */
-/* 
+/*
    Utility mixins
    ========================================================================== */
 /* clearfix */
 /* Webkit-style focus */
 /* Center-align a block level element */
-/* 
+/*
    Typography mixins
    ========================================================================== */
 /* Full-fat vertical rhythm */
 /* Just the REMs */
 /* Just font-size and line-height */
 /* Ellipsis */
-/* 
+/*
    Visibility
    ========================================================================== */
 /* For image replacement */
@@ -1416,6 +1416,12 @@ textarea {
 .fa-tumblr-square:before {
   content: ""; }
 
+.fa-mastodon:before {
+  content: ""; }
+
+.fa-mastodon-square:before {
+  content: ""; }
+
 .fa-long-arrow-down:before {
   content: ""; }
 
@@ -2653,7 +2659,7 @@ img.mfp-img {
 /* ==========================================================================
    Site utilities
    ========================================================================== */
-/* 
+/*
    Selection
    ========================================================================== */
 ::-moz-selection {
@@ -2666,7 +2672,7 @@ img.mfp-img {
   color: rgba(34, 34, 34, 0.8);
   text-shadow: none; }
 
-/* 
+/*
    Global classes
    ========================================================================== */
 /* wrapper */
@@ -2708,7 +2714,7 @@ img.mfp-img {
     list-style-type: none;
     display: inline; }
 
-/* 
+/*
    Global transition
    ========================================================================== */
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a {
@@ -2717,14 +2723,14 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a 
 /* ==========================================================================
    Typography
    ========================================================================== */
-/* 
+/*
    Body
    ========================================================================== */
 body {
   font-family: "Lato", Calibri, Arial, sans-serif;
   color: rgba(34, 34, 34, 0.8); }
 
-/* 
+/*
    Headings
    ========================================================================== */
 h1, h2, h3, h4, h5, h6 {
@@ -2738,7 +2744,7 @@ h1 {
       font-size: 32px;
       font-size: 2rem; } }
 
-/* 
+/*
    Links
    ========================================================================== */
 a {
@@ -2759,7 +2765,7 @@ a {
   text-decoration: underline;
   font-style: normal; }
 
-/* 
+/*
    Captions
    ========================================================================== */
 figcaption {
@@ -2770,7 +2776,7 @@ figcaption {
   line-height: 1.3;
   color: rgba(60, 60, 60, 0.8); }
 
-/* 
+/*
    Notices
    ========================================================================== */
 .notice {
@@ -2783,7 +2789,7 @@ figcaption {
   border: 1px solid #b5b5b5;
   border-radius: 3px; }
 
-/* 
+/*
    Blockquotes
    ========================================================================== */
 blockquote {
@@ -2795,7 +2801,7 @@ blockquote {
     blockquote {
       margin-left: -28px; } }
 
-/* 
+/*
    Code
    ========================================================================== */
 tt, code, kbd, samp, pre {
@@ -3064,7 +3070,7 @@ hr {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #fff; }
 
-/* 
+/*
    Figures and images
    ========================================================================== */
 figure {
@@ -3106,7 +3112,7 @@ figure {
 svg:not(:root) {
   overflow: hidden; }
 
-/* 
+/*
    Buttons
    ========================================================================== */
 .btn, .read-more-header a, #goog-wm-sb {
@@ -3177,7 +3183,7 @@ svg:not(:root) {
     background-color: #fff;
     color: #308cbc; }
 
-/* 
+/*
    Wells
    ========================================================================== */
 .well {
@@ -3207,7 +3213,7 @@ svg:not(:root) {
   -o-animation-duration: 2s;
   animation-duration: 2s; }
 
-/* 
+/*
    Fade in
    ========================================================================== */
 @-webkit-keyframes fadeIn {
@@ -3304,7 +3310,7 @@ svg:not(:root) {
   -o-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig; }
 
-/* 
+/*
    Bounce
    ========================================================================== */
 @-webkit-keyframes bounceIn {
@@ -3407,7 +3413,7 @@ svg:not(:root) {
   -o-animation-name: bounceInDown;
   animation-name: bounceInDown; }
 
-/* 
+/*
    Drop
    ========================================================================== */
 @-webkit-keyframes drop {
@@ -3436,7 +3442,7 @@ svg:not(:root) {
   -o-animation-name: drop;
   animation-name: drop; }
 
-/* 
+/*
    DL Menu In/Out
    ========================================================================== */
 @-webkit-keyframes MenuAnimOut {
@@ -3666,10 +3672,10 @@ svg:not(:root) {
   .dl-menuwrapper li .dl-submenu {
     display: none; }
 
-/* 
+/*
 When a submenu is opened, we will hide all li siblings.
 For that we give a class to the parent menu called "dl-subview".
-We also hide the submenu link. 
+We also hide the submenu link.
 The opened submenu will get the class "dl-subviewopen".
 All this is done for any sub-level being entered.
 */
@@ -3758,7 +3764,7 @@ body {
   width: 100%;
   background-color: #e8e8e8; }
 
-/* 
+/*
    Main content
    ========================================================================== */
 .entry,
@@ -3805,7 +3811,7 @@ body {
     margin-bottom: 26px;
     margin-bottom: 1.625rem; }
 
-/* 
+/*
    Entry header
    ========================================================================== */
 .entry-header {
@@ -3931,7 +3937,7 @@ body {
     color: #fff;
     text-decoration: none; }
 
-/* 
+/*
    Single post and page
    ========================================================================== */
 .entry-meta {
@@ -4117,7 +4123,7 @@ header .entry-meta {
       .list-item:nth-child(2) {
         text-align: right; } }
 
-/* 
+/*
    Post index
    ========================================================================== */
 #post-index #main {
@@ -4166,7 +4172,7 @@ header .entry-meta {
   .entry-image-index img {
     border-radius: 3px 3px 0 0; }
 
-/* 
+/*
    Footer
    ========================================================================== */
 .footer-wrapper {
@@ -4183,7 +4189,7 @@ header .entry-meta {
   .footer-wrapper a {
     color: rgba(85, 85, 85, 0.8); }
 
-/* 
+/*
    Social share
    ========================================================================== */
 .socialcount {
@@ -4196,14 +4202,14 @@ header .entry-meta {
   .socialcount li > a {
     border-bottom-width: 0; }
 
-/* 
+/*
    Browser upgrade
    ========================================================================== */
 .upgrade {
   padding: 10px;
   text-align: center; }
 
-/* 
+/*
    Google Search
    ========================================================================== */
 #goog-fixurl ul {

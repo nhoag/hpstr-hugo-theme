@@ -42,7 +42,10 @@
 					<a href="https://www.flickr.com/photos/{{ .flickr }}"><i class="fa fa-fw fa-flickr"></i> Flickr</a>
 				</li>{{ end }}
 				{{ if isset . "tumblr" }}<li>
-					<a href="http://{{ .tumblr }}.tumblr.com"><i class="fa fa-fw fa-tumblr"></i> Tumblr</a>
+					<a href="https://{{ .tumblr }}.tumblr.com"><i class="fa fa-fw fa-tumblr"></i> Tumblr</a>
+				</li>{{ end }}
+				{{ if isset . "mastodon" }}<li>
+					<a href="https://{{ .mastodon }}"><i class="fa fa-fw fa-mastodon"></i> Mastodon</a>
 				</li>{{ end }}
 			{{ end }}
 			</ul><!-- /.dl-submenu -->
