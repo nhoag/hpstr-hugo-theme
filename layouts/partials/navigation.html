@@ -45,7 +45,7 @@
 					<a href="https://{{ .tumblr }}.tumblr.com"><i class="fa fa-fw fa-tumblr"></i> Tumblr</a>
 				</li>{{ end }}
 				{{ if isset . "mastodon" }}<li>
-					<a href="https://{{ .mastodon }}"><i class="fa fa-fw fa-mastodon"></i> Mastodon</a>
+					<a rel="me" href="https://{{ .mastodon }}"><i class="fa fa-fw fa-mastodon"></i> Mastodon</a>
 				</li>{{ end }}
 			{{ end }}
 			</ul><!-- /.dl-submenu -->
